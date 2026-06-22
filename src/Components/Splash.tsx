@@ -14,22 +14,28 @@ const Splash: React.FC = () => {
       <div className="courseSection">
         <h2>Courses We Offer</h2>
         <div className="courseContainer">
-          <ul>
-            <li>* Medical Field</li>
-            <li>* Education</li>
-            <li>* Data Analyst</li>
-            <li>* Software Development</li>
-          </ul>
-        </div>
-        <div className="courseContainer">
-          <ul>
-            <li>* Architeture</li>
-            <li>* Aeronautics</li>
-            <li>* Arts and Etertainment </li>
-            <li>* Web Development</li>
-          </ul>
+          <div>
+            <ul>
+              <li>Medical Field</li>
+              <li>Education</li>
+              <li>Data Analyst</li>
+              <li>Software Development</li>
+            </ul>
+          </div>
+
+          <div className="courseContainer">
+            <div>
+              <ul>
+                <li>Architeture</li>
+                <li>Aeronautics</li>
+                <li>photography </li>
+                <li>Web Development</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
+
       <div className="startedContainer">
         <h2>If Interested, Then Why Delay? Hurry Up Now!</h2>
         <Button
