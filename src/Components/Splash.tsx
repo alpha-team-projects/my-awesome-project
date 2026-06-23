@@ -16,10 +16,9 @@ const Splash: React.FC = () => {
         <div className="courseContainer">
           <div>
             <ul>
-              <li>Medical Field</li>
+              <li>Medicals</li>
               <li>Education</li>
-              <li>Data Analyst</li>
-              <li>Software Development</li>
+              <li>Engeneering</li>
             </ul>
           </div>
 
@@ -29,7 +28,6 @@ const Splash: React.FC = () => {
                 <li>Architeture</li>
                 <li>Aeronautics</li>
                 <li>photography </li>
-                <li>Web Development</li>
               </ul>
             </div>
           </div>
