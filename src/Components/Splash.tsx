@@ -37,7 +37,9 @@ const Splash: React.FC = () => {
       </div>
 
       <div className="startedContainer">
-        <h2>If Interested, Then Why Delay? Hurry Up Now!</h2>
+        <h2>
+          If Interested, Then Why Delay? <br /> Hurry Up Now!
+        </h2>
         <Button
           variant="contained"
           size="large"
