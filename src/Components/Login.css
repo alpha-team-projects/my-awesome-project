@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Poppins:wght@100;200;300;400;600;700&display=swap");
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 200px;
+  width: 600px;
+  background: #fff;
+  padding-bottom: 30px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 9px;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.text {
+  color: rgb(23, 89, 116);
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.underline {
+  width: 61px;
+  height: 6px;
+  background: rgb(23, 89, 116);
+  border-radius: 9px;
+}
+
+.paragraph {
+  text-align: center;
+  font-size: 18px;
+  font-family: "Courier New", Courier, monospace;
+  color: rgb(23, 89, 116);
+}
+
+.inputs {
+  margin-top: 55px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: 480px;
+  height: 80px;
+  background: #eaeaea;
+  border-radius: 6px;
+}
+
+.input img {
+  margin: 0px 30px;
+}
+
+.input input {
+  height: 50px;
+  width: 400px;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #797979;
+  font-size: 19px;
+}
+
+.login-button {
+  width: 80%;
+  height: 54px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  color: #fff;
+  font-weight: 500;
+  margin: auto;
+  font-size: 19px;
+  background: rgb(23, 89, 116);
+  margin-top: 50px;
+  border-radius: 10px;
+  transition: 0.2s ease;
+}
+
+.forgot-paas-link {
+  margin-top: 15px;
+  font-size: 18px;
+  color: rgb(23, 89, 116);
+  text-align: right;
+  padding-right: 10px;
+}
+
+.login-button:hover {
+  background: rgb(116, 23, 104);
+}
+
+.signup-text {
+  text-align: center;
+  color: rgb(23, 89, 116);
+  font-weight: 500;
+  margin: 1.7rem 0 0.31rem;
+}
+
+.signup-text a {
+  color: rgb(23, 89, 116);
+  font-size: medium;
+  font-family: "Times New Roman", Times, serif;
+}
